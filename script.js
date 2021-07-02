@@ -63,5 +63,5 @@ function openWindow(){
     let index = getRandomNumber(0, pagine.length-1);
     result.innerText = pagine[index];
     window.open(result.innerText);
-    window.close("https://checcolino1312.github.io/Casuale2/home.html");
+
 }
