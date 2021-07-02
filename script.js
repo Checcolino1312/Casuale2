@@ -1,15 +1,6 @@
 let btnRandom = document.querySelector('button');
 let result = document.querySelector('h1');
-let pagine = ['https://www.google.com/',
-              'https://it.wikipedia.org/wiki/Pagina_principale', 
-              'https://www.youtube.com/?gl=IT&hl=it', 
-              'https://www.oraspot.it/', 
-              'https://www.youtube.com/watch?v=l6N-Yq9Fw4U',
-             'https://www.youtube.com/watch?v=UXf8pKj-4ik',
-             'https://upload.wikimedia.org/wikipedia/commons/9/99/Gioconda_%28copia_del_Museo_del_Prado_restaurada%29.jpg',
-             'https://www.instagram.com/_frapr_/',
-             'https://upload.wikimedia.org/wikipedia/commons/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg',
-              '	http://drawing.garden/	 ',
+let pagine = [ '	http://drawing.garden/	 ',
  '	http://lacquerlacquer.com/	 ',
  '	https://strobe.cool/	 ',
  '	http://www.muchbetterthanthis.com/	 ',
@@ -45,7 +36,19 @@ let pagine = ['https://www.google.com/',
  '	https://www.youtube.com/watch?v=thtRNJ3A-CA&list=PLrBFDJBJN1PFAN9sfybPGYfuylkIf1BCp&index=15	 ',
  '	https://www.youtube.com/watch?v=8nvC289Oz50	 ',
  '	https://www.youtube.com/watch?v=-KNj_ath73Q	 ',
- '	https://www.youtube.com/watch?v=Hv_vPOj6Dzg	 '];
+ '	https://www.youtube.com/watch?v=Hv_vPOj6Dzg	 ',
+ '	https://www.youtube.com/watch?v=9sh2SwfuO44	 ',
+ '	https://www.youtube.com/watch?v=jmLJZUrUSSA	 ',
+ '	https://www.youtube.com/watch?v=X0yedGLQzxE	 ',
+ '	https://www.youtube.com/watch?v=ViuBLXffAQ0	 ',
+ '	https://www.youtube.com/watch?v=uqC3UH8XSt8	 ',
+ '	https://www.youtube.com/watch?v=LeUtR2GXv2E	 ',
+ '	https://www.youtube.com/watch?v=VbwS_w3FxPk	 ',
+ '	https://www.youtube.com/watch?v=-OT5sWFGQNg	 ',
+ '	https://www.youtube.com/watch?v=2ZtplZY2NWM	 '];
+
+
+
 function getRandomNumber(min, max) {
     let step1 = max - min + 1;
     let step2 = Math.random() * step1;
@@ -60,4 +63,5 @@ function openWindow(){
     let index = getRandomNumber(0, pagine.length-1);
     result.innerText = pagine[index];
     window.open(result.innerText);
+
 }
