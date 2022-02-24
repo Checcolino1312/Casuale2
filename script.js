@@ -1,7 +1,6 @@
 let btnRandom = document.querySelector('button');
 let result = document.querySelector('h6');
-let pagine = [  '	http://drawing.garden/	 ',		
-              '	https://www.youtube.com/watch?v=bGXtovOy3jA&list=PLrBFDJBJN1PFAN9sfybPGYfuylkIf1BCp&index=14	 ',		
+let pagine = [  '	http://drawing.garden/	 ',				
               '	https://www.youtube.com/watch?v=-KNj_ath73Q	 ',		
               '	https://www.youtube.com/channel/UC5yXB_ThsufRJYMRlzIGoeQ	 ',	
               '	https://www.gazzetta.it/	 ',
