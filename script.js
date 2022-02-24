@@ -8,7 +8,7 @@ let pagine = [  '	http://drawing.garden/	 ',
               '	http://lacquerlacquer.com/	 ',		
               '	https://www.youtube.com/watch?v=2ZtplZY2NWM	 ',	
               '	https://www.youtube.com/watch?v=7HqSRYs0TZI	 ',	
-              '	https://www.youtube.com/user/jakidale	 ',		'https://www.google.com/searchq=seria+a&rlz=1C1ONGR_itIT934IT934&sxsrf=AOaemvKh_L11DONQier8q7DTn4JglXNN0g%3A1643198093972&ei=jTbxYbPBOpuGxc8PnI6i2AM&gs_ssp=eJzj4tDP1TcwriqzNGD0Yi9OLcpMVEgEADUxBYE&oq=seroia&gs_lcp=Cgdnd3Mtd2l6EAMYADIHCC4QsQMQQzIHCAAQsQMQCjIHCAAQsQMQCjIECC4QCjIECAAQCjIGCC4QChBDMgQILhAKMgcIABCxAxBDMgQIABAKMgQILhAKOgQILhAnOgQIIxAnOgQILhBDOgUIABCABDoHCCMQJxCLAzoECAAQQzoICAAQgAQQsQM6BwguELEDEAo6DAgjELECECcQRhD9AUoECEEYAEoECEYYAFAAWJcGYK8PaABwAngAgAGhA4gB7QqSAQkwLjEuMi4xLjGYAQCgAQG4AQLAAQE&sclient=gws-wiz#sie=lg;/g/11n0vx7n5d;2;/m/03zv9;st;fp;1;;	 '];
+              '	https://www.youtube.com/user/jakidale	 '];
 
 
 
